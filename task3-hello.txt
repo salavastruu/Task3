@@ -1,0 +1,20 @@
+Comanda 1: Instalarea Docker
+În acest pas, am instalat Docker pe sistemul meu folosind instrucțiunile oferite de site-ul oficial Docker.
+
+Comanda 2: Crearea fișierului Dockerfile
+ Am creat un fișier numit Dockerfile-debian12 în care vom defini pașii pentru construirea imaginii containerului Debian 12.
+
+ Comanda 3: Editarea Dockerfile
+ Am editat fișierul Dockerfile-debian12 pentru a instala mediul de dezvoltare C++ și alte pachete necesare pentru compilare.
+
+Comanda 4: Construirea imaginii containerului
+Am construit imaginea containerului folosind comanda "docker build -t debian12 -f Dockerfile-debian12 ."
+
+Comanda 5: Rularea containerului și compilarea programului "Hello, World!"
+ Am rulat containerul cu comanda "docker run -it debian12" și am compilat programul "Hello, World!" în C++ folosind g++.
+
+ Comanda 6: Rularea programului "Hello, World!"
+ Am rulat programul "Hello, World!" în interiorul containerului pentru a ne asigura că funcționează corect.
+
+ Aceasta este o simplă documentare a pașilor și a comenzilor utilizate pentru a îndeplini sarcina.
+

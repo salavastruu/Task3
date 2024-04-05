@@ -1,0 +1,9 @@
+
+
+
+Pas 1: Determinarea portului la care este expus serverul SSH în container
+
+Comanda pentru a determina portul la care este expus serverul SSH în container este: docker port <ID_CONTAINER>
+Pas 2: Conectarea la serverul SSH din container
+
+Comanda pentru a vă conecta la serverul SSH din container este:ssh Teodora@localhost -p <PORT>
